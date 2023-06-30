@@ -1,4 +1,4 @@
-const url = 'http://10.0.136.201:34080/wsexecbo/WebServiceExecBO?wsdl'
+const url = 'http://ip-fornecedor/wsexecbo/WebServiceExecBO?wsdl'
 const soapenv = 'http://schemas.xmlsoap.org/soap/envelope/'
 const ser = 'http://service.execbo.ws.framework.totvs.com'
 const headers = { 'Content-Type': 'text/xml' }

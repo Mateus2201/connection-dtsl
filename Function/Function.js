@@ -39,7 +39,7 @@ class CallFunction {
 
       getToken() {
             const currentDate = new Date().toISOString().slice(0, 10);
-            request(requests.Login('rpw'), (error, response) => {
+            request(requests.Login('login-resp'), (error, response) => {
                   if (!error && response.statusCode === 200) {
                         const data = response.body;
                         state.save(data.substring(data.indexOf('<return>') + 8, data.indexOf('</return>')));

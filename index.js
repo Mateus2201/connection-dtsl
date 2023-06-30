@@ -12,5 +12,5 @@ app.get('/request/procedure', (req, res) => {
 })
 
 app.listen(port, () => {
-      console.log("Servidor Node Rodando na porta 5000");
+      console.log(`Servidor Node Rodando na porta ${port}`);
 })
